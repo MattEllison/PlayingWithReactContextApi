@@ -1,5 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+I added context API using this tutorial. https://daveceddia.com/context-api-vs-redux/
 ## Available Scripts
 
 In the project directory, you can run:

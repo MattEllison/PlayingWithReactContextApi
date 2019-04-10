@@ -1,5 +1,5 @@
 import React from 'react';
-import { UserContext } from './App';
+import UserContext from './Context';
 
 const test = () => {
     return <UserContext.Consumer>

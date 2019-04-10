@@ -5,6 +5,7 @@ import Test from './Test';
 import HelloWorld from './HelloWorld';
 
 import UserContext from './Context';
+import TestWithHoc from './TestWithHoc';
 class App extends Component {
 
   state = {
@@ -20,6 +21,7 @@ class App extends Component {
         <UserContext.Provider value={this.state}>
           <Test />
           <HelloWorld />
+          <TestWithHoc />
         </UserContext.Provider>
 
       </div>
